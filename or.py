@@ -3,7 +3,7 @@ from utils.model import Perceptron
 import pandas as pd
 
 def main(data,modelName,plotName,eta,epochs):
-    df_OR=pd.DataFrame(OR)
+    df_OR=pd.DataFrame(data)
 
     X,y=prepare_data(df_OR,target_column="y")
 
